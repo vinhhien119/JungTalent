@@ -357,6 +357,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 
   /* featured product */
   .featured-product {
+    height: auto;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 20% 80%;
@@ -380,6 +381,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
 
   .item {
+    height: auto;
     grid-row: span 1;
     grid-column: span 1;
     font-size: 18px;
@@ -413,7 +415,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 20% 80%;
     margin: 5%;
-    height: 700px;
+    height: auto;
   }
 
   .reviews h2 {
@@ -654,14 +656,21 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     }
 
     .colored-div {
-      height: 100%;
+      height: auto;
     }
     .reviews {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      height: auto;
       margin-bottom: 30%;
     }
+
+    .text-review {
+      height: auto;
+    }
+    /* .review {
+      height: 500px;
+    } */
 
     .outro {
       display: flex;
@@ -688,4 +697,5 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
       margin-left: 0;
       padding-bottom: 5%;
     }
+
   }
