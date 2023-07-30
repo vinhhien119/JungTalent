@@ -1,8 +1,9 @@
 /* Reset default margin and padding */
 html,body{
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
-rrrrr
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
@@ -396,7 +397,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     line-height: 36px;
   }
   .grey-text {
-    color: #C4C4C4;
+    color: rgba(86, 78, 78, 1);
   }
 
   /* reviews div */
@@ -517,6 +518,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     font-size: 36px;
     font-weight: 500;
     line-height: 72px;
+    padding-bottom: 5%;
   }
 
   .wrap-up p {
@@ -621,14 +623,21 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
       order: 1;
       padding-bottom: 20%;
       padding-top: 20%;
+      width: auto;
+    }
+
+    .intro-image img {
+      width: auto;
     }
 
     .intro-text {
       order: 2;
+      padding-right: 0;
     }
 
     .options {
       order: 3;
+      padding-right: 0;
     }
 
     #pink-line {
@@ -638,10 +647,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
       max-width: 100%;
       max-height: 100%;
     }
-
+    .option-item {
+      padding-right: 0;
+    }
     .featured-product {
       grid-template-columns: 50% 50%;
-      grid-template-rows: 20% 40% 40%;
+      grid-template-rows: 10% 45% 45%;
       margin-bottom: 30%;
     }
 
@@ -653,6 +664,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     .item {
       grid-row: span 1;
       grid-column: span 1;
+      height: auto;
     }
 
     .colored-div {
@@ -681,7 +693,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     }
 
     .wrap-up {
+      padding-top: 5%;
       padding-left: 0px;
+      padding-right: 0;
     }
 
     .footer-logo img{
