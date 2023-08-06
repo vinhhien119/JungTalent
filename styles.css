@@ -436,7 +436,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     padding: 5%;
     font-weight: 400;
     line-height: 36px;
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .review h4 {
@@ -446,11 +446,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
 
   .text-review {
-    height: 200px;
+    height: 270px;
   }
   .person {
     display: grid;
-    grid-template-columns: 15% 85%;
+    grid-template-columns: 20% 80%;
     grid-template-rows:  50% 50%;
     margin: 2px;
     padding: 5px;
@@ -470,7 +470,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     grid-row: 1/2;
     font-size: 18px;
     font-weight: 500;
-    line-height: 36px;
     padding-left: 3%;
     padding-top: 6%;
   }
@@ -710,6 +709,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     .footer-logo {
       margin-left: 0;
       padding-bottom: 5%;
+    }
+
+    @media only screen and (max-width: 426px) {
+      .outro img {
+        height: 90%;
+      }
     }
 
   }
